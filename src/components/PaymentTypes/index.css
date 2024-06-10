@@ -1,0 +1,45 @@
+.heading {
+  font-weight: bold;
+  color: #292d32;
+  font-size: 16px;
+}
+
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 16px;
+}
+
+.payment-type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.payment-text {
+  font-size: 16px;
+  color: #292d32;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.proceed-btn {
+  width: 100%;
+  background: #004b8d;
+  border: none;
+  border-radius: 10px;
+  margin: 0.3rem 0;
+  padding: 0 1rem;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+}
+
+.no-payment-options {
+  text-align: center;
+}
